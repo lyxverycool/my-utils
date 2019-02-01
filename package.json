@@ -12,11 +12,7 @@
     "lib",
     "src"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@git.vpgame.cn:fed/v-utils.git"
-  },
-  "author": "vpgame",
+  "author": "vp",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "6.26.0",
