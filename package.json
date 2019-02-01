@@ -1,0 +1,30 @@
+{
+  "name": "v-utils",
+  "version": "1.1.5",
+  "description": "vp工具",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:lib": "babel src -d lib --copy-files",
+    "watch": "npm run build:lib -- -w",
+    "build": "rm -rf lib && npm run build:lib"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@git.vpgame.cn:fed/v-utils.git"
+  },
+  "author": "vpgame",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "log4js": "^2.11.0"
+  }
+}
